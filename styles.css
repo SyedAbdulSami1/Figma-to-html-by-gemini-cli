@@ -1,0 +1,412 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header / Navbar */
+.navbar {
+    background-color: #fbebb5;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 1240px;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 75px;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-icons img {
+    width: 28px;
+    height: 28px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    background-color: #fbebb5;
+    height: 900px;
+    padding-left: 206px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    width: 440px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.shop-now {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+
+.shop-now a {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-image {
+    width: 798px;
+    height: 900px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Side Tables Section */
+.side-tables {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 51px 100px 112px;
+    background-color: #faf4f4;
+}
+
+.table-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.table-item img {
+    width: 605px;
+    height: 383px;
+    object-fit: cover;
+}
+
+.item-info {
+    padding: 23px 105px;
+}
+
+.item-info h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.item-info a {
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+/* Top Picks Section */
+.top-picks {
+    padding: 53px 100px;
+    text-align: center;
+}
+
+.top-picks h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.top-picks > p {
+    color: #9f9f9f;
+    font-size: 16px;
+    margin: 13px 0 67px;
+}
+
+.picks-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.pick-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.pick-item img {
+    width: 287px;
+    height: 287px;
+    object-fit: cover;
+    margin-bottom: 14px;
+}
+
+.pick-item h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pick-item p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.view-more-btn {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+
+/* New Arrivals Section */
+.new-arrivals {
+    display: flex;
+    align-items: center;
+    background-color: #fff9e5;
+    height: 639px;
+    padding-right: 100px;
+}
+
+.arrival-image img {
+    width: 917px;
+    height: 639px;
+    object-fit: cover;
+}
+
+.arrival-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    width: 331px;
+    text-align: center;
+}
+
+.arrival-content p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.arrival-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.order-now-btn {
+    border: 1px solid #000;
+    padding: 17px 74px;
+    font-size: 20px;
+}
+
+/* Blogs Section */
+.blogs {
+    padding: 54px 99px;
+    text-align: center;
+}
+
+.blogs h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.blogs > p {
+    color: #9f9f9f;
+    font-size: 16px;
+    margin: 13px 0 65px;
+}
+
+.blog-grid {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    margin-bottom: 75px;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    width: 393px;
+}
+
+.blog-item img {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.blog-item h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.blog-item > a {
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.blog-meta {
+    display: flex;
+    gap: 21px;
+    font-size: 16px;
+    color: #000;
+}
+
+/* Instagram Section */
+.instagram {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(250, 244, 244, 0.5) url('https://www.figma.com/api/mcp/asset/e2e6033d-dd65-4dde-9df2-14321749bc3e') center/cover;
+    background-blend-mode: overlay;
+    text-align: center;
+}
+
+.instagram-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+.instagram h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.instagram p {
+    font-size: 20px;
+}
+
+.follow-us-btn {
+    background-color: #faf4f4;
+    border-radius: 50px;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 17px 81px;
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 98px 100px 73px;
+    background-color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 47px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.footer-left {
+    width: 285px;
+    color: #9f9f9f;
+    font-size: 16px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 72px;
+}
+
+.footer-links h4, .footer-help h4, .footer-newsletter h4 {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+
+.footer-links ul li, .footer-help ul li {
+    margin-bottom: 46px;
+}
+.footer-links ul li:last-child, .footer-help ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-links a, .footer-help a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-newsletter form {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 6px;
+}
+
+.footer-newsletter input {
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #9f9f9f;
+}
+
+.footer-newsletter input:focus {
+    outline: none;
+}
+
+.footer-newsletter button {
+    border: none;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    padding-top: 35px;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+}
